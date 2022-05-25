@@ -1,0 +1,453 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-rows: 1fr 1.3fr 3fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 1);
+}
+/* ATAS-Kiri */
+.container .top-site
+{
+    position: relative;
+    background: #eeede7;
+    padding-top: 45px;
+    padding-left: 30px;
+}
+.top-site h2
+{
+    color: #333652;
+    padding-top: 30px;
+    padding-left: 40px;
+   font-size: 40px;
+
+}
+.top-site h4
+{
+    padding-left: 40px;
+    color: #5b5e66;
+}
+.list-profil
+{
+    margin-top: 9px;
+    margin-left: 40px;
+    padding-top: 10px;
+    height: 40px;
+    width: 600px;
+    border-radius: 10px;
+    background-color: #1e3148;
+}
+.list-profil p
+{
+    float: left;
+    padding-left: 10px ;
+    padding-right: 10px;
+    border-right: 2px solid #fff;
+    color: #fff;
+}
+.list-profil .note
+{
+    border: none;
+}
+
+/* ATAS-Kanan */
+
+.contactinfo
+{
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    width: 300px;
+}
+.contactinfo ul
+{
+    position: relative;
+    
+}
+.contactinfo ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+    padding-bottom: 5px;
+}
+.contactinfo ul li .icon
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: black;
+    float: left;
+}
+.contactinfo ul li .text
+{
+    margin-top: 100px;
+}
+.contactinfo ul li span
+{
+    color: #1e3148;
+}
+
+/* Tengah */
+.container .middle-site
+{
+    position: relative;
+    background: #fff;
+    padding-top: 20px;    
+}
+
+/* TENGAH-Atas */
+.me
+{
+    clip-path: polygon(10% 0%, 80% 0%, 90% 100%, 0% 100%);
+    margin-left: 280px;
+    height: 30px;
+    width: 300px;
+    background-color: #1e3148;
+}
+.me p
+{
+    color:#fff;
+    font-size: 15px;
+    padding-top: 6px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.skills
+{
+    clip-path: polygon(10% 0%, 80% 0%, 90% 100%, 0% 100%);
+    margin-left: 280px;
+    height: 30px;
+    width: 300px;
+    background-color: #1e3148;
+    position: absolute;
+    right: 0;
+    top: 20px;
+   
+}
+.skills p
+{
+    color:#fff;
+    font-size: 15px;
+    padding-top: 6px;
+    padding-right: 20px;
+    text-align: center;
+    
+}
+/* TENGAH-Kiri */
+.middle-left
+{
+    border-top: 3px solid #03989e;
+    border-bottom: 3px solid #03989e;
+    width: 67%;
+    height: 75%;
+    margin-top: 20px;
+}
+.middle-right
+{
+    position: absolute;
+    right: 5px;
+    top:50px;
+    width: 30%;
+    height: 70%;
+    margin-top: 20px;
+}
+.profiletext
+{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.profiletext .imgbx
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50px;
+}
+.profiletext .imgbx img 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    object-fit: cover;
+    padding-top: 30px;
+    margin-left: 10px;
+}
+.middle-left p
+{
+    color: #333652;
+    letter-spacing: 3px;
+    line-height: 25px;
+    margin-top: 30px;
+    margin-left: 120px;
+    padding-left: 8px;
+    border-left: 3px solid #03989e;
+    height: 50%;
+    text-align: justify;
+    font-size: medium;
+}
+
+/* Tengah-Kanan */
+.middle-right ul
+{
+    padding-left: 20px;
+}
+.middle-right ul li
+{
+    line-height: 34px; 
+    color: #333652;
+}
+
+/* BAWAH */
+.container .under-site
+{
+    position: relative;
+    background: #1e3148;
+    padding: 40px;
+}
+.under-site .experience
+{
+    position: absolute;
+    left: 0;
+    top: 20px;
+    height: 37px;
+    width: 150px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: #5271ff;
+}
+.under-site .experience h3
+{
+    color: #fff;
+    padding-top: 9px;
+    padding-left: 13px;
+}
+.under-site .under-left
+{
+    position: absolute;
+    left: 10px;
+    top: 70px;
+    height: 50%;
+    width: 45%;
+}
+.under-site .intern .icon
+{
+    height: 50px;
+    width: 50px;
+    color: #fff;
+}
+.under-site .intern .text
+{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 51%;
+    width: 90%;
+}
+.training
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 49%;
+    width: 90%;
+}
+.under-right
+{
+    position: absolute;
+    top: 70px;
+    right: 17px;
+    height: 50%;
+    width: 46%;
+}
+.corner-left
+{
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    height: 33%;
+    width: 98%;
+}
+.corner-right
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 10%;
+    width: 47%;
+}
+.under-site h4
+{
+    color: #fff;
+}
+.under-site .date
+{
+    color: #36eee0;
+}
+.under-site .place
+{
+    color: #ff914d;
+}
+.under-site p
+{
+    color: #fff;
+}
+.under-site ul li
+{
+    color: #fff;
+}
+.under-site h4
+{
+    float: left;
+    padding-right: 20px;
+}
+.under-site .under-right h4
+{
+    float: none;
+}
+.under-right .position
+{
+    float: left;
+    padding-right: 20px;
+}
+.under-site ul li
+{
+    letter-spacing: 0.5px;
+}
+.under-site .item
+{
+    padding-left: 20px;
+}
+.under-site .place
+{
+    margin-top: 10px ;
+    margin-bottom: 10px;
+}
+.under-site ul
+{
+    margin-bottom: 20px;
+}
+.under-site .hs
+{
+    padding-top: 10px;
+    padding-left: 48px;
+}
+.corner-left .campus .text
+{
+    letter-spacing: 0.5px;
+}
+.education
+{
+    position: absolute;
+    bottom: 220px;
+    left: 10px;
+    height: 37px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: #5271ff;
+    padding-left: 4px;
+}
+.education h3
+{
+    color: #fff;
+    padding-top: 9px;
+    padding-left: 13px;
+}
+.line
+{
+    border-bottom: 3px solid #03989e;
+    position: absolute;
+    right: 0;
+    width: 80%;
+}
+.line-education
+{
+    border-bottom: 3px solid #03989e;
+    position: absolute;
+    right: 0;
+    bottom: 240px;
+    width: 80%;
+}
+.line-languag
+{
+    border-bottom: 3px solid #03989e;
+    position: absolute;
+    right: 0;
+    bottom: 90px;
+    width: 28%;
+}
+.languag
+{
+    position: absolute;
+    bottom: 70px;
+    right: 320px;
+    height: 37px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: #5271ff;
+    padding-left: 6px;
+}
+.languag h3
+{
+    color: #fff;
+    padding-top: 8.3px;
+    padding-left: 13px;
+}
+.corner-right .icon
+{
+    color: #fff;
+    float: left;
+    margin-right: 20px;
+}
+.corner-right .icon
+{
+    color: #fff;
+    float: left;
+    margin-right: 20px;
+}
+.campus .icon
+{
+    color: #fff;
+    float: left;
+    margin-right: 10px;
+}
+.campus .text
+{
+    margin-left: 25px;
+}
+.organization .icon
+{
+    color: #fff;
+    float: left;
+    margin-right: 10px;
+}
+.under-right .text
+{
+    padding-left: 40px;
+}
