@@ -1,0 +1,97 @@
+{
+    "basics" : {
+        "name" : "Indra Maya",
+        "label" : "Front End Devoloper",
+    "contact" :{
+        "email": "mayandra0205@gmial.com",
+        "hp": "(+62)822-91064456",
+        "linkedin": "linkedin.com/in/indramaya/",
+        "github": "https://github.com/indramaya",
+        "alamat": "Jl. Semampir Selatan IA No.50A Kel.Semampir Kec.Sukolilo Surabaya"
+    },
+    "list":[
+        "CONTACT",
+        "ABOUT",
+        "SKILLS",
+        "EXPERINCE",
+        "EDUCATION",
+        "LANGUAGE"
+    ]
+    },
+    "profil" : {
+        "description": "I am a graduate of Computer Engineering from the University of Dynamics. I have a strong understanding of Front End Development especially HTML, CSS, and JavaScript. In addition, I also have experience in the organization of the Computer Engineering Student Association at the Dynamics University.",
+    "skills" :[
+        "HyperText Marup Language (HTML)",
+        "Cascading Style Sheets",
+        "JavaSript", 
+        "Organisation",
+        "Team Work",
+        "Communication"
+    ]
+},
+    "experience" : {
+        "intern" : {
+            "place": "SD Dharma Kaya Surabaya",
+            "start_date": "August 2021",
+            "end_date": "Novemer 2021",
+            "description" : [
+                "Become an assistant when the trainer is giving Microsoft Office training.",
+                "Create a Microsoft Teams learning module.",
+                "Provide Microsoft Teams training to teachers."
+            ]
+        },
+        "trainig" : {
+            "place": "Digitalent",
+            "start_date": "March 2022",
+            "end_date": "march 2021",
+            "description": [
+                "Mastering the basics of HTML, CSS, and JavaScript",
+                "Create group projects",
+                "Create individual projects"
+            ]
+        },
+        "organization": {
+            "periode1": {
+                "place": "Himpunan Mahasiswa S1 Teknik Komputer",
+                "start_date": "Desember 2021",
+                "end_date": "November 2021",
+                "description":[
+                    "Create a time table for each project",
+                    "Create templates for letters, proposals, and LPJ.",
+                    "Make google forms",
+                    "record and summarize the points of each decision at the time of the meeting"
+                ]
+            },
+            "periode2": {
+                "place": "Himpunan Mahasiswa S1 Teknik Komputer",
+                "start_date": "Desember 2020",
+                "end_date": "Ferbruary 2022",
+                "description":[
+                    "Making special products for S1 Kindergarten pro",
+                    "elping HMTK's financial income",
+                    "rovide product innovation"
+                ]
+            }
+        }
+    },
+    "education" : {
+        "campus" : {
+            "place": "Universitas Dinamika",
+            "start_date": "2018",
+            "end_date": "2022",
+            "description": "Learn programming languages ​​C++, C#, SQL, and learn the basics of the Internet Of Things. The results of learning during lectures are making a calculator program, an IOT-based automatic parking system, a tool entitled Otomasi dan Monitoring Pada Greenhouse Pembibitan Tanaman Strawberry Menggunakan PID,"
+        },
+        "hs" : {
+            "place": "SMA Negeri 1 Pasarwajo",
+            "start_date": "2015",
+            "end_date": "2018"
+        }
+    },
+    "laguage":[
+        "Indonesia",
+        "English"
+    ]
+
+
+
+}
